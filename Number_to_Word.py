@@ -14,7 +14,7 @@ from test_NumberConverter import TestNumberToWords  # Import your test runner fu
 def main():
     """
     The main function of the application.
-    It obtains user input, converts the input number to words, and runs unit tests.
+    It obtains user input, converts the input to words and runs unit test.
     """
     if len(sys.argv) != 3:
         print("Invalid Input")

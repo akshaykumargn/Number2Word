@@ -10,12 +10,12 @@ from Number_Converter_function import Number_to_word  # Import the function to b
 
 class TestNumberToWords(unittest.TestCase):
     """
-    A test suite for the Number_to_word function.
+    Test suite for Number_to_word function.
     """
 
     def test_valid_numbers(self):
         """
-        Test cases for valid input within the specified range (0 to 100).
+        Test cases to validate input within accepted range (0 to 100).
         """
         self.assertEqual(Number_to_word(0), "zero")
         self.assertEqual(Number_to_word(1), "one")
@@ -27,7 +27,7 @@ class TestNumberToWords(unittest.TestCase):
 
     def test_out_of_range(self):
         """
-       Test cases for out-of-range input.
+       Test cases for the inputs out-of-range.
        """
        
         self.assertEqual(Number_to_word(-1), "Number out of range (0-100)")
@@ -35,7 +35,7 @@ class TestNumberToWords(unittest.TestCase):
         
     def test_string_input(self):
         """
-       Test cases for string input (invalid input).
+       Test cases for string input.
        """
        
         self.assertEqual(Number_to_word("string"), "Invalid input. Please enter a valid number.")
