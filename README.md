@@ -9,7 +9,7 @@ This is a simple Python script that converts a numeric input between 0 and 100 i
 ## Getting Started
 
 1. Clone the repository to your local machine:
-   git clone https://github.com/yourusername/Number-to-Word-Converter.git
+   git clone https://github.com/akshaykumargn/Number-to-Word-Converter.git
 2. Navigate to the project directory:
    cd Number-to-Word-Converter
 3. Run the script with an integer argument to convert to words. For example:
