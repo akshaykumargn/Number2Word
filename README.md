@@ -28,6 +28,7 @@ The script will display the word representation of the integer.
 
 - Akshay Kumar Guluvinattiguppe Nagaraju
 - Contact: akshaykumargn@gmail.com
+- LinkedIn: linkedin.com/in/akshaykumargn
 
 ## License
 
